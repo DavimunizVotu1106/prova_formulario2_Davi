@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Formulario 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agência de Viagens</h1>
+    <div class="dados">
+    <form method="post" action="#">
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome Completo">
+        <label for="idade" name="idade" id="idade">Idade</label>
+        <input type="text" name="idade" id="idade" placeholder="Ex: 18">
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email">
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+
+        <label for="endereco">País</label>
+        <input type="text" name="pais" id="pais" placeholder="Digite o país destino">
+    </div>
+<p></p>
+    <h2>Prefêrencias</h2>
+    <p>Conte-nos sobre suas preferências</p>
+    <div class="preferencias">
+     <labeL for="classe">Qua classe você gostaria de viajar?</labeL><p></p>
+     <select name="classe" id="classe">
+         <option value="1">1 - Econômico</option>
+         <option value="2">2 - Intermediário</option>
+         <option value="3">3 - Profissional</option>
+         <option value="4">4 - Especialista</option>
+     </select>
+     <p></p>
+     <labeL for="turno">Qua turno você tem preferência?</labeL><p></p>
+     <input type="radio" name="turno" id="turno" value="1">
+     <label for="turno">1 - Manhã</label>
+     <input type="radio" name="turno" id="turno" value="2">
+     <label for="turno">2 - Tarde</label>
+     <input type="radio" name="turno" id="turno" value="3">
+     <label for="turno">3 - Noite</label>
+<p></p>
+     <label>Quais linguas você fala?</label>
+     <input type="checkbox" name="preferencias" id="preferencias" value="1">
+     <label for="preferencias">1 - Inglês</label>
+     <input type="checkbox" name="preferencias" id="preferencias" value="2">
+     <label for="preferencias">2 - Português</label>
+     <input type="checkbox" name="preferencias" id="preferencias" value="3">
+     <label for="preferencias">3 - Espanhol</label>
+     <input type="checkbox" name="preferencias" id="preferencias" value="4">
+     <label for="preferencias">4 - Francês</label>
+     <input type="checkbox" name="preferencias" id="preferencias" value="5">
+     <label for="preferencias">5 - Coreano</label>
+    </div>
+    <p></p>
+    <div class="conhecimento">
+    <fieldset>
+        <legend>Qual é seu nivel de conhecimento?</legend>
+        
+        <input type="radio" name="conhecimento" id="conhecimento" value="1">
+        <label for="conhecimento">Iniciante</label>
+        <input type="radio" name="conhecimento" id="conhecimento" value="2">
+        <label for="conhecimento">Intermediário</label>
+        <input type="radio" name="conhecimento" id="conhecimento" value="3">
+        <label for="conhecimento">Avançado</label>
+        <input type="radio" name="conhecimento" id="conhecimento" value="4">    
+        <label for="conhecimento">Expert</label>
+        </div>
+    </fieldset>
+
+
+    <p></p>
+    <h2>Observações</h2>
+    <div class="observacoes">
+    <textarea name="observacoes" id="observacoes" cols="50" rows="4"></textarea>
+<p></p>
+<button type="submit">Enviar</button>
+<p></p>
+<button type="reset">Limpar</button>
+</div>
+</form>
+</body>
+</html>
